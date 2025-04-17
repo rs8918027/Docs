@@ -6,7 +6,7 @@ import { useEditorStore } from "@/store/use-editor-store";
 import { Separator } from "@/components/ui/separator";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 import { type Level } from "@tiptap/extension-heading"
-import { type ColorResult, CirclePicker, SketchPicker } from "react-color"
+import { type ColorResult, SketchPicker } from "react-color"
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
